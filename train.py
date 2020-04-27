@@ -4,9 +4,6 @@ import os
 
 import train_keras_imitation
 
-import coloredlogs
-coloredlogs.install(logging.DEBUG)
-
 # All the evaluations will be evaluated on MineRLObtainDiamond-v0 environment
 MINERL_GYM_ENV = os.getenv('MINERL_GYM_ENV', 'MineRLObtainDiamond-v0')
 # You need to ensure that your submission is trained in under MINERL_TRAINING_MAX_STEPS steps
