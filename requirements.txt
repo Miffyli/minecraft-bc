@@ -1,0 +1,12 @@
+crowdai_api
+minerl
+coloredlogs
+matplotlib
+opencv-python
+pyro4
+numpy
+tensorflow-gpu==1.14.0
+stable-baselines
+keras
+gym
+dill
