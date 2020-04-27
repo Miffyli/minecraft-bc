@@ -9,7 +9,7 @@ Short story in shorter format: Behavioural cloning on the provided dataset. No R
 ## Contents
 
 Code is in the submission format, and can be ran with the instructions at [submission template repository](https://github.com/minerllabs/competition_submission_starter_template).
-`requirements.txt` contains Python modules required to run the code, and `apt.txt` includes any Debian packages required.
+`requirements.txt` contains Python modules required to run the code, and `apt.txt` includes any Debian packages required (used by the Docker image in AICrowd evaluation server).
 
 The core of our submission resides in `train_keras_imitation.py`, which contains the main training loop. 
 
@@ -19,5 +19,5 @@ The core of our submission resides in `train_keras_imitation.py`, which contains
 
 Run `train.py` to train the model, after run `test.py` to run the evaluation used in the AICrowd platform. This code prints out per-episode rewards.
 
-After 200 games, the average episodic reward should be around 13-18. The results very from to run / depending on when training is stopped, and we also
-noticed our local evaluations having consistently lower score than on AICrowd platform.
+After 200 games, the average episodic reward should be around 10-13. The results very from to run / depending on when training is stopped, and we also
+noticed our local evaluations having consistently lower score than on AICrowd platform (achieved +15 results).
