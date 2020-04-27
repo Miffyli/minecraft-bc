@@ -2,8 +2,9 @@
 This repository contains the final ranked submission of UEFDRL team to the [MineRL 2019 challenge](https://www.aicrowd.com/challenges/neurips-2019-minerl-competition),
 reaching fifth place.
 
-A paper detailing the submission and related experiments: To be added. 
 Long story short: Behavioural cloning on the provided dataset, _i.e._ predict what actions humans would take. No RNNs.
+
+A paper detailing submission will be linked here later. 
 
 ## Contents
 
@@ -16,7 +17,7 @@ The core of our submission resides in `train_keras_imitation.py`, which contains
 
 [Download](http://minerl.io/dataset/) and place MineRL dataset under `./data`. Alternatively point environment variable `MINERL_DATA_ROOT` to the downloaded dataset.
 
-Run `train.py` to train the model, after run `test.py` to run the evaluation used in the AICrowd platform. This code prints out per-episode rewards.
+Run `train.py` to train the model. Afterwards run `test.py` to run the evaluation used in the AICrowd platform. This code prints out per-episode rewards.
 
-After 200 games, the average episodic reward should be around 10-13. The results very from to run / depending on when training is stopped, and we also
+After 200 games, the average episodic reward should be around 10-13. The results very from run-to-run, and we also
 noticed our local evaluations having consistently lower score than on AICrowd platform (achieved +15 results).
