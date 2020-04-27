@@ -1,10 +1,9 @@
-# UEFDRL submission to MineRL 2019 challenge
-This repository contains the final ranked submission to the [MineRL 2019 challenge](https://www.aicrowd.com/challenges/neurips-2019-minerl-competition),
-reaching fifth place. 
+# Playing Minecraft with behavioural cloning
+This repository contains the final ranked submission of UEFDRL team to the [MineRL 2019 challenge](https://www.aicrowd.com/challenges/neurips-2019-minerl-competition),
+reaching fifth place.
 
-A paper detailing the submission and related experiments: To be added.
-
-Short story in shorter format: Behavioural cloning on the provided dataset. No RNNs.
+A paper detailing the submission and related experiments: To be added. 
+Long story short: Behavioural cloning on the provided dataset, _i.e._ predict what actions humans would take. No RNNs.
 
 ## Contents
 
