@@ -4,7 +4,7 @@ reaching fifth place.
 
 Long story short: Behavioural cloning on the provided dataset, _i.e._ predict what actions humans would take. No RNNs.
 
-A paper detailing submission will be linked here later. 
+See this paper for full details: [Playing Minecraft with Behavioural Cloning](https://arxiv.org/abs/2005.03374).
 
 ## Contents
 
